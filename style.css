@@ -1,0 +1,114 @@
+/* corpo do site/background */
+
+body{
+    background-color: #ccc;
+    margin: 0;
+
+}
+
+h1{
+    font-size: 60px;
+    font-family: Arial;
+}
+
+h2{
+    
+    font-family: Arial;
+}
+
+p{
+    
+    font-family: Arial;
+}
+/* painel estilizado, é o que fica atrás dos itens quando aberto em <div> */
+div.panel{
+    background-color: white;
+    padding: 15px 15px;
+    box-shadow: 0px 1px black;
+}
+/* menu - parte de fundo */
+div.navbar{
+    overflow:hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    box-shadow: 0px 1px black;
+   
+}
+/* menu que dispoem os itens dentro da barra de menu */
+div.navbar a{
+    float:left;
+    display:inline;
+    color:black;
+    font-family: Arial;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+div.navbar a:hover{
+   
+    color:#ccc;
+}
+
+
+/* menu que a direita */
+div.navbar a.right{
+    float:right;
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+div.navbar a.right:hover{
+   
+    color:#ccc;
+}
+
+/* controla disposiçao do comando img no menu */
+div.navbar img{
+    float:left;
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 4px 0px;
+    text-decoration: none;
+}
+/* modifica o botao do tipo texto */
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/* modifica o botao do tipo email */
+input[type=email] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/*  modifica o botao do tipo select de opçoes */
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/*  coloca em ordem as roupas */
+div.box{
+    width: 430px;
+	display: inline-block;
+   
+}
+/*  comando dos textos para as informaçoes das roupas na pagina delas */
+span{
+    text-align: left;
+    float:left;
+    padding: 2% 4%;
+    font-size: 20px;
+}
